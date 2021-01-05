@@ -6,6 +6,7 @@
     <title>Poratal Page</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <div id="container">
@@ -29,19 +30,20 @@
             
             <div class="last-border">
                 <div class="info">
-                    &copy 2020 | Chad Brizuela | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+                    &copy; 2020 | Chad Brizuela | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
                 </div>
-                <div class="date">
-                    Last Updated: 04/27/2020 11:45:01
+                <p id="date"> 
                 </div>
             </div>
         </div>
-        <div class="picture"><img src="pic.jpg" alt="me&myjowa">
+        <div class="picture"><img src="pic.jpg" alt="couplepicture">
         </div>
-           
     </div>
 
-        
-    </div>
+
+    <script>
+        var d =document.lastModified;
+        document.getElementById("date").innerHTML = "Last Update: " + d;
+    </script>
 </body>
 </html>
