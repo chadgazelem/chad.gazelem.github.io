@@ -19,7 +19,7 @@
  }
 
  .first-border{
-   background-color: aqua;
+   background-color: rgb(119, 243, 191);
     width: 713px;
     height: 85px;
     text-align: left;
@@ -32,7 +32,7 @@
    padding-left: 10px;
  }
 .last-border{
-  background-color: aqua;
+  background-color: rgb(119, 243, 191);
   width: 713px;
   height: 62px;
   text-align: left;
@@ -62,8 +62,6 @@
   body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    justify-content: center;
-    
   }
   
   /**
@@ -192,12 +190,14 @@
   
   img {
     border-style: none;
-    width: 220px;
+    width: 180px;
     height: 238px;
     z-index: 1;
     position: absolute;
     margin-left: 564px;
     margin-top: -252px;
+    border-radius: 0px 5px 0px 0px;
+    box-shadow: -1px 1px 20px #686868;
   }
   
   /* Forms
