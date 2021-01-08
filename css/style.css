@@ -1,13 +1,11 @@
  .container{
     background-color: rgb(245, 245, 245);
-    
-}
+  }
 
  body {
     font-family: 'Montserrat', sans-serif;
-    margin: auto;
+    margin: 0 auto !important;
     width: 50%;
-   
   }
   
 
