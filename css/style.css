@@ -44,3 +44,7 @@
     background-color: rgb(37, 39, 97);
     color: rgb(250, 250, 250);
   }
+
+  footer a{
+    color:yellow;
+  }
